@@ -1,4 +1,5 @@
-import pfp from "../assets/pfp.png";
+import gmail from "../assets/gmail.jpg";
+import linkedin from "../assets/linkedin.jpg";
 
 export default function ContactSection() {
   return (
@@ -13,7 +14,7 @@ export default function ContactSection() {
       <div className="flex-1 w-full flex justify-center items-center mt-4 gap-12">
         <a href="https://mail.google.com/mail/?view=cm&to=shenghengpf84@gmail.com" target="_blank" rel="noopener noreferrer">
           <img
-            src={pfp}
+            src={gmail}
             alt="Email"
             className="w-12 h-12 hover:opacity-80 transition-opacity"
           />
@@ -21,7 +22,7 @@ export default function ContactSection() {
 
         <a href="https://www.linkedin.com/in/ang-sheng-heng-68763b259/" target="_blank" rel="noopener noreferrer">
           <img
-            src={pfp}
+            src={linkedin}
             alt="LinkedIn"
             className="w-12 h-12 hover:opacity-80 transition-opacity"
           />

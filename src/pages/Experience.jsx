@@ -1,7 +1,8 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import pfp from "../assets/pfp.png";
+import xanpc from "../assets/xanpc.jpg";
 
 export default function Experience() {
 
@@ -70,7 +71,7 @@ export default function Experience() {
                 Diagnosed and resolved both hardware and software issues efficiently, while advising clients on component compatibility, system upgrades, and optimisation.
 
                 A key part of this role was communicating solutions clearly and tailoring recommendations to each client’s needs.`}
-              postpic = {pfp} 
+              postpic = {xanpc} 
               link = "" />
 
               <Post class = "Exp : Military"

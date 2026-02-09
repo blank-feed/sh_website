@@ -1,7 +1,9 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import pfp from "../assets/pfp.png";
+import gradsp from "../assets/gradSP.jpg";
+import camera from "../assets/camera.jpg";
 
 export default function Introduction() {
 
@@ -22,22 +24,22 @@ export default function Introduction() {
               content = {`Hello I'm Sheng Heng!
                 I'm an aspiring developer who loves programming!
                 I have strong interest in game development and interactive experiences`}
-              postpic = {pfp} 
+              postpic = {camera} 
               link = "" />
 
               <Post class = "Introduction"
               content = {`I enjoy turning ideas into something tangible, especially experiences that players can connect with and remember long after playing!`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
               <Post class = "Introduction"
               content = {`Currently studying and preparing to pursue university education, while actively working on personal projects (like this website!)`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
               <Post class = "Introduction"
               content = {`Always looking for opportunities to learn, collaborate, and grow, whether through university courses, internships, or creative projects!`}
-              postpic = {pfp} 
+              postpic = {gradsp} 
               link = "" />
 
           </div>

@@ -1,7 +1,10 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import pfp from "../assets/pfp.png";
+import japan from "../assets/japan.jpg";
+import calibarn from "../assets/calibarn.jpg";
+import workin from "../assets/workin.jpg";
 
 export default function Home() {
 
@@ -21,14 +24,14 @@ export default function Home() {
             content = {`Hello I'm Sheng Heng!
               This thread covers a quick introduction about myself, as well as my interests,
               current focus and what drives me as an aspiring developer!`}
-            postpic = {pfp} 
+            postpic = {japan} 
             link = "/introduction" />
 
             <Post class = "Home : About Me"
             content = {`Everyone has a story behind why they build things
               This is mine - how I started creating what I enjoy!
               (Thread 👇)`}
-            postpic = {pfp} 
+            postpic = {calibarn} 
             link = "/profile" />
 
             <Post class = "Home : Experiences"
@@ -47,7 +50,7 @@ export default function Home() {
             <Post class = "Home : Projects"
             content = {`A collection of projects I've worked on, each representing a step in my growth as a developer
               View the thread below to see each project's ideas, processes, challenges and what I've learnt!`}
-            postpic = {pfp} 
+            postpic = {workin} 
             link = "/project" />
 
           </div>

@@ -1,7 +1,8 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import pfp from "../assets/pfp.png";
+import grad from "../assets/graduation.jpg";
 
 export default function Academic() {
 
@@ -29,7 +30,7 @@ export default function Academic() {
                 Nanyang Polytechnic — School of Design and Media
                 2021 - 2024
                 Focused on developing, creating and ideating games`}
-              postpic = {pfp} 
+              postpic = {grad} 
               link = "" />
 
               <Post class = "Academic : BVSS"

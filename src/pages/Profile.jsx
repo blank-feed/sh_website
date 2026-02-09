@@ -2,6 +2,11 @@ import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import pfp from "../assets/pfp.png"
 import Post from '../components/post';
+import calibarn from "../assets/calibarn.jpg";
+import leafgreen from "../assets/leafgreen.jpg";
+import python from "../assets/python.jpg";
+import ptcg from "../assets/ptcg.jpg";
+
 
 export default function Profile() {
 
@@ -22,7 +27,7 @@ export default function Profile() {
               content = {`Everyone has a story behind why they build things
               This is mine - how I started creating what I enjoy!
               (Thread 👇)`}
-              postpic = {pfp} 
+              postpic = {calibarn} 
               link = "" />
 
               <Post class = "Abt Me : Origin Story"
@@ -31,14 +36,14 @@ export default function Profile() {
                 I started playing when I was 4, and it left a lasting impact on me. The sense of exploration and joy it gave me is something I still remember today
                 
                 I hope to one day create games that leave the same kind of unforgettable memories for future players`}
-              postpic = {pfp} 
+              postpic = {leafgreen} 
               link = "" />
 
               <Post class = "Abt Me : Getting into Tech"
               content = {`I picked up programming when I was 15, starting with Python
                 
-                That was when I realised I could combine my passion for games with technical skils - working towards becoming a developer who can actually bring ideas to life`}
-              postpic = {pfp} 
+                That was when I realised I could combine my passion for games with technical skills - working towards becoming a developer who can actually bring ideas to life`}
+              postpic = {python} 
               link = "" />
 
               <Post class = "Abt Me : How I think & Learn"
@@ -65,7 +70,7 @@ export default function Profile() {
                 I also play competitive trading card games and am part of a local Pokémon TCG community
                 
                 I enjoy thinking ahead, finding the best “line” to win — much like debugging and problem-solving in code`}
-              postpic = {pfp} 
+              postpic = {ptcg} 
               link = "" />
 
           </div>

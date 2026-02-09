@@ -1,7 +1,15 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import PostVid from '../components/postvid';
+import pfp from "../assets/pfp.png";
+import kurafuto from "../assets/kurafuto.jpg";
+import minecraft from "../assets/minecraft.jpg";
+import MDA from "../assets/MDA.jpg";
+import blues from "../assets/Blues.png";
+import crafting from "../assets/crafting.png";
+import sp3_vid from "../assets/SP3_vid.mp4";
+import ravil_and_ghens_updated from "../assets/ravil_and_ghens_updated.png";
 
 export default function Kurafuto() {
 
@@ -23,7 +31,7 @@ export default function Kurafuto() {
                 Studio Project 3
                 Kurafuto is a 2D survival game inspired by Minecraft.
                 Explore, craft, and survive through a dynamic day-night cycle in a world full of adventure`}
-              postpic = {pfp} 
+              postpic = {kurafuto} 
               link = "" />
 
               <Post class = "Kurafuto : Project Overview"
@@ -34,7 +42,7 @@ export default function Kurafuto() {
                 Designed the game loop around exploration, resource management, and progression toward defeating a final boss to complete the game
 
                 Balanced survival pressure through interconnected systems such as crafting, hunger management, and a dynamic day–night cycle`}
-              postpic = {pfp} 
+              postpic = {minecraft} 
               link = "" />
 
               <Post class = "Kurafuto : Game Design & Ideation"
@@ -45,7 +53,7 @@ export default function Kurafuto() {
                 Established survival-focused design pillars emphasising risk–reward decision making and long-term planning
 
                 Scoped systems and content to maintain challenge while remaining approachable for new players`}
-              postpic = {pfp} 
+              postpic = {MDA} 
               link = "" />
 
               <Post class = "Kurafuto : Core System"
@@ -58,7 +66,7 @@ export default function Kurafuto() {
                 Implemented a hunger system that directly impacts player survivability and resource prioritisation
 
                 Designed system interdependencies to ensure mechanics reinforced each other rather than existing in isolation`}
-              postpic = {pfp} 
+              postpic = {crafting} 
               link = "" />
 
               <Post class = "Kurafuto : AI & Enemy Behaviour"
@@ -71,7 +79,7 @@ export default function Kurafuto() {
                 Designed and implemented loot drop systems to reward combat and exploration
 
                 Balanced enemy difficulty progression to scale with player advancement`}
-              postpic = {pfp} 
+              postpic = {blues} 
               link = "" />
 
               <Post class = "Kurafuto : Boss Design"
@@ -82,7 +90,7 @@ export default function Kurafuto() {
                 Developed unique combat behaviour patterns to distinguish the boss from standard enemies
 
                 Tuned attack phases, timing windows, and damage values to create a challenging but fair encounter`}
-              postpic = {pfp} 
+              postpic = {ravil_and_ghens_updated} 
               link = "" />
 
               <Post class = "Kurafuto : Art & Assets"
@@ -92,8 +100,10 @@ export default function Kurafuto() {
 
                 Ensured visual consistency across environments, characters, and UI elements
 
-                Balanced clarity and readability to support fast-paced survival gameplay`}
-              postpic = {pfp} 
+                Balanced clarity and readability to support fast-paced survival gameplay
+                
+                Most assets in this thread is made by me!`}
+              postpic = {""} 
               link = "" />
 
               <Post class = "Kurafuto : Development & Iteration"
@@ -104,10 +114,10 @@ export default function Kurafuto() {
                 Adjusted AI parameters, resource availability, and combat pacing based on playtesting feedback
 
                 Focused on stability, clarity, and overall cohesion across systems`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
-              <Post class = "Kurafuto : Outcome"
+              <PostVid class = "Kurafuto : Outcome"
               content = {`#Outcome
 
                 Successfully delivered a complete 2D survival experience with a clear progression path and end goal
@@ -115,7 +125,7 @@ export default function Kurafuto() {
                 Demonstrated strong ownership across design, programming, AI, and art
 
                 Showcased ability to build interconnected systems within a survival game framework`}
-              postpic = {pfp} 
+              video = {sp3_vid} 
               link = "" />
 
           </div>

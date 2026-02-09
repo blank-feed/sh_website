@@ -3,6 +3,8 @@ import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
 import pfp from "../assets/pfp.png";
 import ahms from "../assets/ahms.jpg";
+import workin from "../assets/workin.jpg";
+import kurafuto from "../assets/kurafuto.jpg";
 
 export default function Project() {
 
@@ -22,7 +24,7 @@ export default function Project() {
             <Post class = "Project : Starting"
               content = {`A collection of projects I've worked on, each representing a step in my growth as a developer
               View the thread below to see each project's ideas, processes, challenges and what I've learnt!`}
-              postpic = {pfp} 
+              postpic = {workin} 
               link = "" />
 
               <Post class = "Project : BoatSim"
@@ -59,7 +61,7 @@ export default function Project() {
                 Studio Project 3
                 Kurafuto is a 2D survival game inspired by Minecraft.
                 Explore, craft, and survive through a dynamic day-night cycle in a world full of adventure`}
-              postpic = {pfp} 
+              postpic = {kurafuto} 
               link = "/kurafuto" />
 
               <Post class = "Project : Angel Hunter"
