@@ -2,7 +2,13 @@ import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
 import pfp from "../assets/pfp.png";
+import gradcap from "../assets/gradcap.png";
 import grad from "../assets/graduation.jpg";
+import ahms from "../assets/ahms.jpg";
+import bvss from "../assets/bvss.jpg";
+import bowling from "../assets/bowling.jpg";
+import nybc from "../assets/nybc.jpg";
+import sjwp from "../assets/sjwp.jpg";
 
 export default function Academic() {
 
@@ -22,7 +28,7 @@ export default function Academic() {
             <Post class = "Academic : Starting"
               content = {`"The day we stop learning is the day we die" - Michael Scott
               Here’s a look at my education journey — from major milestones to achievements and the experiences that pushed me to grow`}
-              postpic = {pfp} 
+              postpic = {gradcap} 
               link = "" />
 
               <Post class = "Academic : NYP"
@@ -38,7 +44,7 @@ export default function Academic() {
                 Bukit View Secondary School
                 2017 - 2020
                 Took up Computing as an 'O'-Level subject, which marked the start of my programming journey`}
-              postpic = {pfp} 
+              postpic = {bvss} 
               link = "" />
 
               <Post class = "Achievement : GameJam"
@@ -47,8 +53,8 @@ export default function Academic() {
                 Collaborated in a team of 5 to develop a mobile game - Angel Hunter
                 Led the development side of the team
                 Learnt to manage team workload realistically and avoid over scoping`}
-              postpic = {pfp} 
-              link = "" />
+              postpic = {ahms} 
+              link = "/angelhunter" />
  
               <Post class = "Achievement : BIS"
               content = {`Bowling Is Science Academy
@@ -59,21 +65,21 @@ export default function Academic() {
                 • National Age Group (2022 - Under 18 Category)
                 • 52nd Singapore Nationals & 7th National Youth Challenge
                   (2022 - Under 18 Category)`}
-              postpic = {pfp} 
+              postpic = {bowling} 
               link = "" />
 
               <Post class = "Achievement : NYBC"
               content = {`National Youth Business Challenge 2017
                 Certificate of Achievement
                 NYBC taught me how to turn eco-friendly ideas into customer-focused concepts and pitch them effectively`}
-              postpic = {pfp} 
+              postpic = {nybc} 
               link = "" />
 
               <Post class = "Achievement : SJWP"
               content = {`Singapore Junior Water Prize 2018
                 Certificate of Participation
                 Collaborated with teammates in the Singapore Junior Water Prize to design a modular concept aimed at reducing water evaporation`}
-              postpic = {pfp} 
+              postpic = {sjwp} 
               link = "" />
 
           </div>

@@ -4,7 +4,9 @@ import Post from '../components/post';
 import pfp from "../assets/pfp.png";
 import japan from "../assets/japan.jpg";
 import calibarn from "../assets/calibarn.jpg";
+import gradcap from "../assets/gradcap.png";
 import workin from "../assets/workin.jpg";
+import parents from "../assets/parents.jpg";
 
 export default function Home() {
 
@@ -38,13 +40,13 @@ export default function Home() {
             content = {`Thought I'd share some of my experiences that helped shape how I work and think as a developer
               Featuring my hands-on experience, responsibilities and my takeaways from each role!
               (Thread 👇)`}
-            postpic = {pfp} 
+            postpic = {parents} 
             link = "/experience" />
 
             <Post class = "Home : Education"
             content = {`"The day we stop learning is the day we die" - Michael Scott
               Here’s a look at my education journey — from major milestones to achievements and the experiences that pushed me to grow`}
-            postpic = {pfp}
+            postpic = {gradcap}
             link = "/academic" />
 
             <Post class = "Home : Projects"

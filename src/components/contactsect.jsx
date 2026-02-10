@@ -1,5 +1,5 @@
-import gmail from "../assets/gmail.jpg";
-import linkedin from "../assets/linkedin.jpg";
+import gmail from "../assets/gmail.png";
+import linkedin from "../assets/linkedin.png";
 
 export default function ContactSection() {
   return (

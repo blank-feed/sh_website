@@ -52,7 +52,7 @@ export default function Profile() {
                 I’m comfortable learning from peers, researching online, or experimenting hands-on — doing is how I retain and truly understand new concepts
 
                 When I hit challenges, I don’t give up. I step back, seek help if needed, and move forward stronger. Sometimes taking one step back really does lead to two steps forward.`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
               <Post class = "Abt Me : Value & Mindset"
@@ -61,7 +61,7 @@ export default function Profile() {
                 I believe there’s always something new to learn every day, and I enjoy exploring multiple solutions to the same problem
                 
                 I enjoy teamwork and collaborating with others, but I’m also confident working independently when needed`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
               <Post class = "Abt Me : Outside of Coding"

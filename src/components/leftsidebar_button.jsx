@@ -11,7 +11,7 @@ export default function Leftsidebar_button({ to, label, icon }) {
                    h-12 rounded-2xl flex items-center cursor-pointer px-4"
       >
         {icon && (
-          <img src={icon} alt="icon" className="w-6 h-6 object-cover rounded-full" />
+          <img src={icon} alt="icon" className="w-6 h-6 object-cover" />
         )}
 
         <span className="text-xl font-bold ml-auto text-black">{label}</span>

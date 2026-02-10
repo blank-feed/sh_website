@@ -2,7 +2,12 @@ import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
 import pfp from "../assets/pfp.png";
+import gks from "../assets/gks.png";
 import xanpc from "../assets/xanpc.jpg";
+import boat from "../assets/boat.jpg";
+import r2b from "../assets/2b.jpg";
+import arise from "../assets/arise.jpg";
+import parents from "../assets/parents.jpg";
 
 export default function Experience() {
 
@@ -25,7 +30,7 @@ export default function Experience() {
               content = {`Thought I'd share some of my experiences that helped shape how I work and think as a developer
               Featuring my hands-on experience, responsibilities and my takeaways from each role!
               (Some comments below link to projects with further details!)`}
-              postpic = {pfp} 
+              postpic = {parents} 
               link = "" />
 
               <Post class = "Exp : ARISE"
@@ -36,7 +41,7 @@ export default function Experience() {
                 Worked on a mobile game designed to encourage at-home physical activity for elderly users.
 
                 I also participated in outreach sessions at old folks’ homes, engaging participants through interactive games, and helped collect feedback through online surveys.`}
-              postpic = {pfp} 
+              postpic = {arise} 
               link = "" />
 
               <Post class = "Exp : TwinDisc"
@@ -47,7 +52,7 @@ export default function Experience() {
                 Built a 3D boat simulation used to demonstrate product capabilities without a physical vessel.
 
                 The simulation enabled realistic, multi-directional boat control via a 3-in-1 joystick and was used as an interactive tool during client presentations.`}
-              postpic = {pfp} 
+              postpic = {boat} 
               link = "" />
 
               <Post class = "Exp : 2B Robotics"
@@ -58,7 +63,7 @@ export default function Experience() {
                 Assisted in teaching Lego Robotics classes, creating engaging and hands-on learning experiences for students.
 
                 Guided students in developing problem-solving and logical thinking skills through interactive activities, while supporting lesson execution and tracking student progress.`}
-              postpic = {pfp} 
+              postpic = {r2b} 
               link = "" />
 
               <Post class = "Exp : PC Technician"
@@ -81,7 +86,7 @@ export default function Experience() {
                 
                 In-charge of the unit’s IT Section.
                 Worked directly with senior officers, managed all IT assets, and rolled out up to 100 laptops during high-priority events like course starts and graduations — fast and without downtime`}
-              postpic = {pfp} 
+              postpic = {gks} 
               link = "" />
 
           </div>

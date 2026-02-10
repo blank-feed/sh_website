@@ -1,3 +1,5 @@
+import file from "../assets/file.png";
+
 export default function ResumeSection({}) {
     
   return (
@@ -8,9 +10,11 @@ export default function ResumeSection({}) {
             Download my resume here!
             </p>
             <div className="flex-1 flex items-center">
-            <p className="text-xl font-bold text-black">
-                Download btn
-            </p>
+                <img
+                    src={file}
+                    alt="download file"
+                    className="w-8 h-8 object-contain"
+                />
             </div>
         </div>
   );
