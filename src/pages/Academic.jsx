@@ -1,7 +1,6 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png";
 import gradcap from "../assets/gradcap.png";
 import grad from "../assets/graduation.jpg";
 import ahms from "../assets/ahms.jpg";
@@ -20,8 +19,8 @@ export default function Academic() {
           </div>
 
           <div className="w-1/2 bg-black relative flex flex-col items-center p-4 space-y-10">
-            <div className="mt-0 absolute left-40 top-30 bottom-0 w-0.5 bg-blue-500 z-0"></div>
-            <div className="post bg-gray-500 w-6/7 h-16 rounded-2xl flex items-center justify-center">
+            <div className="absolute top-10 bottom-0 w-0.5 bg-blue-500 z-0 left-[17%]" ></div>
+            <div className="post bg-gray-500 w-6/7 h-16 rounded-2xl flex items-center justify-center z-10">
               <p className = "text-black">Academic & Achievements</p>
             </div>
 

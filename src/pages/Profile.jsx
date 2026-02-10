@@ -1,6 +1,5 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
-import pfp from "../assets/pfp.png"
 import Post from '../components/post';
 import calibarn from "../assets/calibarn.jpg";
 import leafgreen from "../assets/leafgreen.jpg";

@@ -4,17 +4,27 @@ export default function Leftsidebar_button({ to, label, icon }) {
   const navigate = useNavigate();
 
   return (
-    <div className="mt-10 w-45/100 ml-auto">
+    <div className="mt-10 w-full flex justify-end">
       <div
         onClick={() => navigate(to)}
-        className="bg-gray-500 hover:bg-gray-600 transition 
-                   h-12 rounded-2xl flex items-center cursor-pointer px-4"
+        className="
+          h-12
+          w-12 lg:w-55
+          rounded-full cursor-pointer
+          bg-gray-500 hover:bg-gray-600 transition
+          flex items-center
+          justify-center 
+          px-0 lg:px-5
+          gap-0 lg:gap-4
+        "
       >
-        {icon && (
-          <img src={icon} alt="icon" className="w-6 h-6 object-cover" />
-        )}
+        <img src={icon} alt="icon" className="w-6 h-6" />
 
-        <span className="text-xl font-bold ml-auto text-black">{label}</span>
+        <span className="
+          hidden lg:inline text-lg font-bold text-black
+        ">
+          {label}
+        </span>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 import Leftsidebar_button from '../components/leftsidebar_button';
-import pfp from "../assets/pfp.png";
 import pulse from "../assets/pulse.png";
 import user from "../assets/user.png";
 import briefcase from "../assets/briefcase.png";

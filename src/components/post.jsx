@@ -24,11 +24,12 @@ export default function Post({ content, postpic, link }) {
         />
 
         <div className="ml-4 flex-1">
-          <p className="text-gray-375">
-            <span className="font-bold text-lg">{username}</span> @sheng_da_heng
-          </p>
+          <div className="flex flex-col">
+            <span className="font-bold text-lg text-gray-375">{username}</span>
+            <span className="text-gray-300 text-sm">@im_shengheng</span>
+          </div>
 
-          <p className="mt-1 text-gray-375 whitespace-pre-line">
+          <p className="mt-2 text-gray-375 whitespace-pre-line">
             {content}
           </p>
 
@@ -36,7 +37,7 @@ export default function Post({ content, postpic, link }) {
             <img
               src={postpic}
               alt="post"
-              className="mt-3 max-w-md rounded-xl object-cover"
+              className="mt-3 w-full max-w-md rounded-xl object-cover"
             />
           )}
         </div>

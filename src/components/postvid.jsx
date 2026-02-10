@@ -39,7 +39,7 @@ export default function PostVid({ content, video, link }) {
             <video
               src={video}
               controls
-              className="mt-3 max-w-md rounded-xl object-cover"
+              className="mt-3 w-full max-w-md rounded-xl object-cover"
               onClick={(e) => e.stopPropagation()}
             />
           )}
