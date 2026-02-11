@@ -17,7 +17,7 @@ export default function Home() {
             <Left_sidebar />
           </div>
 
-          <div className="w-1/2 bg-black relative flex flex-col items-center p-4 space-y-10">
+          <div className="w-1/2 bg-black relative flex flex-1 flex-col items-center p-4 space-y-10">
             <div className="post bg-gray-500 w-6/7 h-16 rounded-2xl flex items-center justify-center">
               <p className = "text-black">welc to my website ig</p>
             </div>
