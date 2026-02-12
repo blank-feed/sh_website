@@ -19,7 +19,7 @@ export default function Home() {
 
           <div className="w-1/2 bg-black relative flex flex-1 flex-col items-center p-4 space-y-10">
             <div className="post bg-gray-500 w-6/7 h-16 rounded-2xl flex items-center justify-center">
-              <p className = "text-black">welc to my website ig</p>
+              <p className = "text-black">welcome to my website!</p>
             </div>
 
             <Post class = "Home : Intro"
@@ -51,6 +51,7 @@ export default function Home() {
 
             <Post class = "Home : Projects"
             content = {`A collection of projects I've worked on, each representing a step in my growth as a developer
+              
               View the thread below to see each project's ideas, processes, challenges and what I've learnt!`}
             postpic = {workin} 
             link = "/project" />

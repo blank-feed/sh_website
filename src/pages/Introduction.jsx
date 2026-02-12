@@ -7,16 +7,16 @@ import camera from "../assets/camera.jpg";
 export default function Introduction() {
 
   return (
-    <div className="h-screen w-screen overflow-y-auto bg-amber-100 overflow-x-hidden">
-        <div className="flex min-h-screen">
-          <div className="w-1/4 bg-black sticky top-0 h-screen p-4 border-r border-r-gray-500">
-            <Left_sidebar />
-          </div>
-
-          <div className="w-1/2 bg-black relative flex flex-col items-center p-4 space-y-10">
-            <div className="mt-0 absolute left-40 top-30 bottom-0 w-0.5 bg-blue-500 z-0"></div>
-            <div className="post bg-gray-500 w-6/7 h-16 rounded-2xl flex items-center justify-center">
-              <p className = "text-black">Introduction</p>
+    <div className="h-screen w-screen overflow-y-auto bg-black overflow-x-hidden">
+            <div className="flex min-h-screen">
+              <div className="w-1/4 bg-black sticky top-0 h-screen p-4 border-r border-r-gray-500">
+                <Left_sidebar />
+              </div>
+    
+              <div className="w-1/2 bg-black relative flex flex-1 flex-col items-center p-4 space-y-10">
+                <div className="absolute top-10 bottom-0 w-0.5 bg-blue-500 z-0 left-[17%]" ></div>
+                <div className="post bg-gray-500 w-6/7 h-16 rounded-2xl flex items-center justify-center z-10">
+                  <p className = "text-black">Introduction</p>
             </div>
 
             <Post class = "Introduction"
@@ -43,7 +43,7 @@ export default function Introduction() {
 
           </div>
 
-          <div className="w-1/4 bg-black sticky top-0 h-screen p-4 border-l border-l-gray-500">
+          <div className="hidden lg:block w-1/4 bg-black sticky top-0 h-screen p-4 border-l border-l-gray-500">
             <Right_sidebar/>
           </div>
 
