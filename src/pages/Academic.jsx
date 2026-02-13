@@ -1,13 +1,13 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import gradcap from "../assets/gradcap.png";
 import grad from "../assets/graduation.jpg";
 import ahms from "../assets/ahms.jpg";
 import bvss from "../assets/bvss.jpg";
 import bowling from "../assets/bowling.jpg";
 import nybc from "../assets/nybc.jpg";
 import sjwp from "../assets/sjwp.jpg";
+import joash from "../assets/joash.jpg";
 
 export default function Academic() {
 
@@ -27,7 +27,7 @@ export default function Academic() {
             <Post class = "Academic : Starting"
               content = {`"The day we stop learning is the day we die" - Michael Scott
               Here’s a look at my education journey — from major milestones to achievements and the experiences that pushed me to grow`}
-              postpic = {gradcap} 
+              postpic = {joash} 
               link = "" />
 
               <Post class = "Academic : NYP"

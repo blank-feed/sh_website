@@ -4,9 +4,9 @@ import Left_sidebar_bottom from '../components/left_sidebar_bottom';
 import Post from '../components/post';
 import japan from "../assets/japan.jpg";
 import calibarn from "../assets/calibarn.jpg";
-import gradcap from "../assets/gradcap.png";
 import workin from "../assets/workin.jpg";
 import parents from "../assets/parents.jpg";
+import joash from "../assets/joash.jpg";
 
 export default function Home() {
 
@@ -46,7 +46,7 @@ export default function Home() {
             <Post class = "Home : Education"
             content = {`"The day we stop learning is the day we die" - Michael Scott
               Here’s a look at my education journey — from major milestones to achievements and the experiences that pushed me to grow`}
-            postpic = {gradcap}
+            postpic = {joash}
             link = "/academic" />
 
             <Post class = "Home : Projects"

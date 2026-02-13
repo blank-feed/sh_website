@@ -5,8 +5,8 @@ import gks from "../assets/gks.png";
 import xanpc from "../assets/xanpc.jpg";
 import boat from "../assets/boat.jpg";
 import r2b from "../assets/2b.jpg";
-import arise from "../assets/arise.jpg";
 import parents from "../assets/parents.jpg";
+import arise from "../assets/arise.jpg";
 
 export default function Experience() {
 
@@ -52,7 +52,7 @@ export default function Experience() {
 
                 The simulation enabled realistic, multi-directional boat control via a 3-in-1 joystick and was used as an interactive tool during client presentations.`}
               postpic = {boat} 
-              link = "" />
+              link = "/boat" />
 
               <Post class = "Exp : 2B Robotics"
               content = {`Assistant Teacher

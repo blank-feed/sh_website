@@ -4,6 +4,7 @@ import Post from '../components/post';
 import pfp from "../assets/pfp.png";
 import ahms from "../assets/ahms.jpg";
 import workin from "../assets/workin.jpg";
+import boatjs from "../assets/boatjoystick.jpg";
 import kurafuto from "../assets/kurafuto.jpg";
 
 export default function Project() {
@@ -32,7 +33,7 @@ export default function Project() {
               content = {`Boat Simulator
                 Twin Disc Internship Project
                 Built in Unity, Boat Simulator is a 3D experience that allows clients to interact with a multi-directional joystick and feel how the product performs—without needing a real boat`}
-              postpic = {pfp} 
+              postpic = {boatjs} 
               link = "/boat" />
 
               <Post class = "Project : Punch"

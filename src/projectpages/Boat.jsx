@@ -1,7 +1,13 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import pfp from "../assets/pfp.png";
+import boatfb from "../assets/boatfrontback.jpg";
+import boatjs from "../assets/boatjoystick.jpg";
+import boatrig from "../assets/boatrig.jpg";
+import boattop from "../assets/boattop.jpg";
+import boatturn from "../assets/boatturn.jpg";
+import arduino from "../assets/arduino.jpg";
 
 export default function Boat() {
 
@@ -22,7 +28,7 @@ export default function Boat() {
               content = {`Boat Simulator
                 Twin Disc Internship Project
                 Built in Unity, Boat Simulator is a 3D experience that allows clients to interact with a multi-directional joystick and feel how the product performs—without needing a real boat`}
-              postpic = {pfp} 
+              postpic = {boatjs} 
               link = "" />
 
               <Post class = "Boat : Project Overview"
@@ -31,7 +37,7 @@ export default function Boat() {
                 Developed a 3D boat simulation in Unity3D to demonstrate the capabilities of the company’s multi-directional joystick
 
                 The simulation allowed clients to experience boat maneuverability without needing a physical vessel, reducing logistical constraints and providing an immersive demonstration environment`}
-              postpic = {pfp} 
+              postpic = {boatrig} 
               link = "" />
 
               <Post class = "Boat : Physics & Simulation"
@@ -42,7 +48,7 @@ export default function Boat() {
                 Applied accurate physics to the boat’s propellers and thrusters, ensuring movement felt true-to-life under varying input conditions
 
                 Integrated dynamic water effects to enhance immersion and provide visual feedback aligned with boat behavior`}
-              postpic = {pfp} 
+              postpic = {boatturn} 
               link = "" />
 
               <Post class = "Boat : Hardware"
@@ -53,7 +59,7 @@ export default function Boat() {
                 Learned Arduino fundamentals to read, process, and map joystick data to Unity, enabling real-time interaction
 
                 Tuned input response and control mapping for accuracy, ensuring smooth and predictable maneuvering`}
-              postpic = {pfp} 
+              postpic = {arduino} 
               link = "" />
 
               <Post class = "Boat : User Experience"
@@ -64,7 +70,7 @@ export default function Boat() {
                 Focused on making the simulation approachable for first-time users while maintaining technical fidelity
 
                 Iteratively refined physics, visuals, and control responsiveness based on test sessions to ensure a polished demonstration`}
-              postpic = {pfp} 
+              postpic = {boattop} 
               link = "" />
 
               <Post class = "Boat : Testing & Iteration"
@@ -75,7 +81,7 @@ export default function Boat() {
                 Adjusted physics coefficients, input scaling, and smoothing algorithms to improve realism and handling
 
                 Focused on delivering a seamless experience for client demonstrations`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
               <Post class = "Boat : Delivery & Outcome"
@@ -84,7 +90,7 @@ export default function Boat() {
                 Successfully delivered the project as a client-facing simulation tool, fully integrated with the joystick hardware
 
                 Received positive feedback on realism, visual fidelity, and control responsiveness, highlighting the effectiveness of the simulation as a demonstration medium`}
-              postpic = {pfp} 
+              postpic = {boatfb} 
               link = "" />
 
           </div>
