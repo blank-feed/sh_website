@@ -1,7 +1,14 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import Postvid from '../components/postvid';
+import title from "../assets/title.jpg";
+import paladin from "../assets/paladin.png";
+import selection from "../assets/selection.jpg";
+import boon from "../assets/boon.png";
+import enemy from "../assets/boss.png";
+import map from "../assets/map.png";
+import vid from "../assets/IWP_Final_Trailer.mp4";
 
 export default function Threads() {
 
@@ -23,7 +30,7 @@ export default function Threads() {
                 NYP Independent Work Project
                 A 2D fantasy RPG
                 Engage in turn-based, dice-driven combat in a world inspired by Baldur’s Gate 3 and Dungeons & Dragons`}
-              postpic = {pfp} 
+              postpic = {title} 
               link = "" />
 
               <Post class = "Threads : Project Overview"
@@ -34,7 +41,7 @@ export default function Threads() {
                 Designed as an independent project, handling all aspects from gameplay design and AI programming to animation and visual assets
 
                 Built the game loop around exploration, turn-based combat, and dice-driven mechanics inspired by Baldur’s Gate 3 and Dungeons & Dragons`}
-              postpic = {pfp} 
+              postpic = {paladin} 
               link = "" />
 
               <Post class = "Threads : Playable Characters"
@@ -45,7 +52,7 @@ export default function Threads() {
                 Designed distinct class mechanics to encourage tactical decision-making and replayability
 
                 Ensured each character’s abilities synergized with combat systems while remaining balanced across encounters`}
-              postpic = {pfp} 
+              postpic = {selection} 
               link = "" />
 
               <Post class = "Threads : Combat System"
@@ -56,7 +63,7 @@ export default function Threads() {
                 Designed enemy AI behaviours tailored to each encounter, including the final boss, ensuring tactical but fair challenges
 
                 Tuned combat pacing, action timing, and difficulty through iterative testing to maintain tension and player engagement`}
-              postpic = {pfp} 
+              postpic = {boon} 
               link = "" />
 
               <Post class = "Threads : Storyline & World Building"
@@ -67,7 +74,7 @@ export default function Threads() {
                 Incorporated branching routes and side objectives to enhance player agency and replayability
 
                 Integrated environmental storytelling to reinforce narrative immersion`}
-              postpic = {pfp} 
+              postpic = {map} 
               link = "" />
 
               <Post class = "Threads : AI & Enemy Design"
@@ -78,7 +85,7 @@ export default function Threads() {
                 Implemented encounter logic to make combat encounters dynamic, challenging, and engaging
 
                 Designed boss AI to provide unique challenges while remaining beatable with strategic play`}
-              postpic = {pfp} 
+              postpic = {enemy} 
               link = "" />
 
               <Post class = "Threads : Iteration & Playtesting"
@@ -89,10 +96,10 @@ export default function Threads() {
                 Iteratively refined enemy stats, dice probabilities, and player abilities to ensure fair yet tactical gameplay
 
                 Applied feedback to adjust difficulty curves, action pacing, and encounter design for an optimal experience`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
-              <Post class = "Threads : Outcome"
+              <Postvid class = "Threads : Outcome"
               content = {`#Outcome
 
                 Successfully delivered a fully playable 2D RPG showcasing turn-based, dice-driven combat and strategic depth
@@ -100,7 +107,7 @@ export default function Threads() {
                 Demonstrated end-to-end project ownership, including design, programming, animation, and balancing
 
                 Built a cohesive fantasy world with meaningful player choices, diverse characters, and challenging tactical combat`}
-              postpic = {pfp} 
+              video = {vid} 
               link = "" />
 
           </div>

@@ -6,6 +6,7 @@ import ahms from "../assets/ahms.jpg";
 import workin from "../assets/workin.jpg";
 import boatjs from "../assets/boatjoystick.jpg";
 import kurafuto from "../assets/kurafuto.jpg";
+import title from "../assets/title.jpg";
 
 export default function Project() {
 
@@ -48,7 +49,7 @@ export default function Project() {
                 NYP Independent Work Project
                 A 2D fantasy RPG
                 Engage in turn-based, dice-driven combat in a world inspired by Baldur’s Gate 3 and Dungeons & Dragons`}
-              postpic = {pfp} 
+              postpic = {title} 
               link = "/threads" />
 
               <Post class = "Project : Ememotics"
