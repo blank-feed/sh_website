@@ -1,7 +1,11 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import ariseoffice from "../assets/ariseoffice.jpg";
+import menu from "../assets/menu.jpg";
+import body from "../assets/body.jpg";
+import xcode from "../assets/xcode.jpg";
+import punch from "../assets/punch.jpg";
 
 export default function Punch() {
 
@@ -22,7 +26,7 @@ export default function Punch() {
               content = {`Punch-Punch
                 ARISE @ NTU Internship Project
                 Mobile game promoting at-home exercise for elderly users, making fitness engaging and accessible`}
-              postpic = {pfp} 
+              postpic = {ariseoffice} 
               link = "" />
 
               <Post class = "Punch : Project Overview"
@@ -33,7 +37,7 @@ export default function Punch() {
                 Structured gameplay around light physical movements, transforming exercise into an engaging and approachable game experience
 
                 Designed multiple game modes to support both standing and seated play, ensuring inclusivity for users with varying mobility levels`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
               <Post class = "Punch : Body Tracking & Input"
@@ -44,7 +48,7 @@ export default function Punch() {
                 Tracked player body movements and mapped them directly to in-game actions for intuitive interaction
 
                 Synchronized the player’s hand movements to punching glove game objects, ensuring responsive and visually clear feedback`}
-              postpic = {pfp} 
+              postpic = {body} 
               link = "" />
 
               <Post class = "Punch : Gameplay"
@@ -55,7 +59,7 @@ export default function Punch() {
                 Designed enemy interaction checks to validate intentional strikes rather than accidental movement
 
                 Implemented dodge mechanics that detect leg-lift actions, allowing players to avoid enemy attacks through physical motion`}
-              postpic = {pfp} 
+              postpic = {punch} 
               link = "" />
 
               <Post class = "Punch : Accessibility & UX Design"
@@ -68,7 +72,7 @@ export default function Punch() {
                 Implemented a seated gameplay mode for users unable to stand for extended periods
 
                 Adjusted difficulty curves to ensure progression felt encouraging rather than punishing`}
-              postpic = {pfp} 
+              postpic = {menu} 
               link = "" />
 
               <Post class = "Punch : Platform & Workflow Adaptation"
@@ -79,7 +83,7 @@ export default function Punch() {
                 Configured device permissions and motion input pipelines to support body-tracking features on iOS hardware
 
                 Tested gameplay across devices to ensure consistent performance and input reliability`}
-              postpic = {pfp} 
+              postpic = {xcode} 
               link = "" />
 
               <Post class = "Punch : Outcome"
@@ -90,7 +94,7 @@ export default function Punch() {
                 Successfully integrated body-tracking input into a Unity mobile experience
 
                 Demonstrated the ability to design accessible, sensor-driven gameplay aligned with a specific target audience`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
           </div>

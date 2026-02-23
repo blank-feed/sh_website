@@ -1,12 +1,13 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png";
 import ahms from "../assets/ahms.jpg";
 import workin from "../assets/workin.jpg";
 import boatjs from "../assets/boatjoystick.jpg";
 import kurafuto from "../assets/kurafuto.jpg";
 import title from "../assets/title.jpg";
+import ariseoffice from "../assets/ariseoffice.jpg";
+import ememotics from "../assets/ememotics.jpg";
 
 export default function Project() {
 
@@ -41,7 +42,7 @@ export default function Project() {
               content = {`Punch-Punch
                 ARISE @ NTU Internship Project
                 Mobile game promoting at-home exercise for elderly users, making fitness engaging and accessible`}
-              postpic = {pfp} 
+              postpic = {ariseoffice} 
               link = "/punch" />
 
               <Post class = "Project : Threads"
@@ -56,7 +57,7 @@ export default function Project() {
               content = {`E-Memotics
                 Final Year Project
                 Collaborated with AK+ to create a 3D metaverse learning space in Unreal Engine 5, blending education with immersive virtual environments`}
-              postpic = {pfp} 
+              postpic = {ememotics} 
               link = "/ememotics" />
 
               <Post class = "Project : Kurafuto"

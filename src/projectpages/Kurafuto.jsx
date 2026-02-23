@@ -2,7 +2,6 @@ import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
 import PostVid from '../components/postvid';
-import pfp from "../assets/pfp.png";
 import kurafuto from "../assets/kurafuto.jpg";
 import minecraft from "../assets/minecraft.jpg";
 import MDA from "../assets/MDA.jpg";

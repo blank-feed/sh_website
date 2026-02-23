@@ -1,7 +1,14 @@
 import Right_sidebar from '../components/right_sidebar';
 import Left_sidebar from '../components/left_sidebar';
 import Post from '../components/post';
-import pfp from "../assets/pfp.png"
+import PostVid from '../components/postvid';
+import ememotics from "../assets/ememotics.jpg";
+import sml from "../assets/SML.jpg";
+import ue5 from "../assets/ue5.jpg";
+import mobiro from "../assets/mobiro.jpg";
+import puzzle from "../assets/puzzle.jpg";
+import trailer from "../assets/EMemotics_Trailer.mp4";
+import mobiroanimation from "../assets/mobiroanimation.gif";
 
 export default function Ememotics() {
 
@@ -22,7 +29,7 @@ export default function Ememotics() {
               content = {`E-Memotics
                 Final Year Project
                 Collaborated with AK+ to create a 3D metaverse learning space in Unreal Engine 5, blending education with immersive virtual environments`}
-              postpic = {pfp} 
+              postpic = {ememotics} 
               link = "" />
 
               <Post class = "Ememotics : Project Overview"
@@ -33,7 +40,7 @@ export default function Ememotics() {
                 Conceived as a foundational prototype for how the NYP School of Design and Media (SML) Metaverse Lab could be structured and integrated into AK+’s broader metaverse ecosystem
 
                 Designed with the long-term vision of an open-world SML environment, using RPG-inspired elements to teach students skills and academic modules through exploration`}
-              postpic = {pfp} 
+              postpic = {sml} 
               link = "" />
 
               <Post class = "Ememotics : Engine & Technical Adaptation"
@@ -44,7 +51,7 @@ export default function Ememotics() {
                 Adapted to a new engine and toolchain while meeting technical requirements, deadlines, and client expectations
 
                 Applied UE5 systems such as Blueprints, animation retargeting, and physics-based interactions to support gameplay and learning mechanics`}
-              postpic = {pfp} 
+              postpic = {ue5} 
               link = "" />
 
               <Post class = "Ememotics : Gameplay System"
@@ -55,7 +62,7 @@ export default function Ememotics() {
                 Built a transformable vehicle-pet system that seamlessly switches between companion and traversal forms
 
                 Ensured transitions were intuitive and responsive, supporting smooth exploration across the environment`}
-              postpic = {pfp} 
+              postpic = {mobiro} 
               link = "" />
 
               <Post class = "Ememotics : World Interaction"
@@ -68,7 +75,7 @@ export default function Ememotics() {
                 Created movable platforms to introduce traversal challenges and spatial problem-solving
 
                 Implemented water systems to enhance environmental realism and immersion`}
-              postpic = {pfp} 
+              postpic = {puzzle} 
               link = "" />
 
               <Post class = "Ememotics : Animation & Polish"
@@ -79,7 +86,7 @@ export default function Ememotics() {
                 Ensured animation transitions remained natural and cohesive within gameplay contexts
 
                 Focused on maintaining visual clarity and responsiveness across all interactive elements`}
-              postpic = {pfp} 
+              postpic = {mobiroanimation} 
               link = "" />
 
               <Post class = "Ememotics : Interaction Design & Usability"
@@ -90,10 +97,10 @@ export default function Ememotics() {
                 Ensured usability remained accessible for students unfamiliar with game-like environments
 
                 Balanced engagement-driven gameplay with educational intent`}
-              postpic = {pfp} 
+              postpic = {""} 
               link = "" />
 
-              <Post class = "Ememotics : Collaboration & Client Alignment"
+              <PostVid class = "Ememotics : Collaboration & Client Alignment"
               content = {`#Collaboration #ClientAlignment
 
                 Worked closely with the project team to align technical features with client goals and expectations
@@ -101,7 +108,7 @@ export default function Ememotics() {
                 Responded to client feedback iteratively, refining scope and mechanics to meet project requirements
 
                 Successfully delivered a functional prototype demonstrating the feasibility of a shared virtual learning environment`}
-              postpic = {pfp} 
+              video = {trailer} 
               link = "" />
 
           </div>
